@@ -18,7 +18,7 @@ Files
 Download the following files to help you get started:
 
 Module 9 Challenge filesLinks to an external site.
-
+ 
 Instructions
 This Challenge is divided into three parts: data modeling, data engineering, and data analysis.
 
