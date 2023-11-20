@@ -72,6 +72,7 @@ CREATE TABLE salaries(
 	emp_no INT PRIMARY KEY NOT NULL,
 	emp_title_id VARCHAR(5) NOT NULL,
 	FOREIGN KEY (emp_no, emp_title_id) REFERENCES employees(emp_no, emp_title_id),
+	PRIMARY KEY(emp_no, emp_title_id),
 	salary INT
 );
 
